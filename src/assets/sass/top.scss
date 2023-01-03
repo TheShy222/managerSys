@@ -1,0 +1,21 @@
+$h:80px;
+#top {
+    height: $h;
+    .pic {
+        float: left;
+    }
+    .listTop {
+        width: 200px;
+        height: 50px;
+        float: right;
+        margin-right: 50px;
+        li{
+            float: left;
+            margin-top: 35px;
+            margin-left: 20px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
